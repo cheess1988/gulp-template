@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main page</title>
+    <!-- <link rel="icon" type="image/x-icon" href="./img/favicon.ico"> -->
+    <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+    @@include('components/header.html')
+
+    <main class="main">
+        <h1>Main Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quibusdam incidunt cumque rem. Beatae eveniet placeat nulla, blanditiis quasi voluptatum facere est accusantium modi dolorum alias eligendi dolor quia! Officia.</p>
+        
+        <svg class="icon-phone svg-reset">
+            <use xlink:href="#icon-phone"></use>
+        </svg>
+
+        <picture>
+            <source
+                srcset="../../img/logo.webp"
+                type="image/webp"
+            />
+            <img
+                src="../../img/logo.jpg"
+                alt="logo"
+                loading="lazy"
+            />
+        </picture>
+    </main>
+
+    @@include('components/footer.html')
+
+    <script src="./js/index.bundle.js"></script>
+</body>
+</html>

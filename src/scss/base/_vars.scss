@@ -1,0 +1,28 @@
+:root {
+    --xs-size: 100%;
+    --sm-size: 576px;
+    --md-size: 768px;
+    --lg-size: 992px;
+    --xl-size: 1200px;
+    --xxl-size: 1400px;
+
+    --container-xs: 100%;
+    --container-sm: 540px;
+    --container-md: 720px;
+    --container-lg: 960px;
+    --container-xl: 1140px;
+    --container-xxl: 1320px;
+    --container-padding: 15px;
+
+    --font-main: 'Oswald', sans-serif;
+    --font-accent: 'Roboto', sans-serif;
+
+    --page-bg: #fff;
+    --text-color: #000;
+    --accent-color: #f00;
+}
+
+// .theme-dark {
+//     --page-bg: #000;
+//     --text-color: #fff;
+// }

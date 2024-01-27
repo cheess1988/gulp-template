@@ -1,0 +1,16 @@
+html {
+	scroll-behavior: smooth;
+}
+
+//:target {
+//	scroll-margit-top: 59px;
+//}
+
+body {
+    font-family: var(--font-main);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+	color: var(--text-color);
+	background-color: var(--page-bg);
+}
